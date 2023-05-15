@@ -1,0 +1,408 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+}
+
+.extradiv h2,
+.servicediv h2 {
+  font-size: 0.9rem;
+  margin: 20px 0 15px 0;
+  font-weight: bold;
+  line-height: 1.1;
+  word-spacing: 4px;
+}
+
+i {
+  color: #71B280;
+}
+
+.titulo {
+  color: #71B280;
+  font-family: "Aboreto", cursive;
+  font-size: 2.5rem;
+}
+
+.texto1 {
+  color: #fff;
+}
+
+.STRONG {
+  font-weight: bold;
+  color: #71B280;
+}
+
+.social {
+  color: #fff;
+}
+
+.destacar {
+  margin: 35px;
+}
+
+/*ESTILOS GENERALES*/
+
+/*HEADER*/
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Photos/fondo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 77%, 50% 100%, 0 75%, 0 0);
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: linear-gradient(to right, #134E5E, #71B280);
+}
+
+.nav-item a {
+  color: #fff !important;
+  font-weight: bold;
+  font-family: "Aboreto", cursive;
+}
+
+.header-section {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  position: relative;
+}
+
+.center-div {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.header-buttons a:hover {
+  text-decoration: none;
+  color: #71B280;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.center-div p {
+  font-size: 1.3rem;
+  padding: 10px 0 20px 0;
+  color: #fff;
+}
+
+
+/*FÍN HEADER*/
+
+/*NOSOTRAS SECTION*/
+
+.header-extradiv {
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.extradiv p {
+  text-align: justify;
+}
+
+.extradiv {
+  background-color: #fff;
+  border: none;
+  padding: 30px !important;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.extradiv:hover {
+  box-shadow: -10px 0px 20px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-20px);
+}
+
+.separacion {
+  margin-top: 20px;
+}
+
+/*FÍN NOSOTRAS SECTION*/
+
+/*ESENCIA SECTION*/
+
+.serviceoffers {
+  background-color: #f7f7f9;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.headings {
+  margin-bottom: 50px;
+}
+
+.headings h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Aboreto', cursive;
+}
+
+.names h1 {
+  color: #2e2e2e;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.service-icons {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  height: 0.6rem !important;
+  margin-bottom: 25px !important;
+}
+
+.fotos {
+  margin: 25px;
+}
+
+/*FÍN ESENCIA SECTION*/
+
+/*CLASES Y SERVICIOS SECTION*/
+
+.pricing {
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  position: relative;
+}
+
+.pricing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+}
+
+.card {
+  transition: 0.4s ease;
+}
+
+.card-header {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #71B280;
+  background: #fff !important;
+  padding: 25px 0 !important;
+  font-family: "Aboreto", cursive;
+}
+
+.card-body {
+  padding: 30px 0 !important;
+}
+
+.card-body {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #71B280;
+}
+
+.card-footer {
+  background: #fff !important;
+  padding: 30px 0 !important;
+}
+
+.card-footer a {
+  border: 1px solid #71B280;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #71B280;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.card:hover .card-footer a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #71B280;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-second {
+  transform: translateY(-20px);
+  /* box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); */
+}
+
+.clases {
+  margin: 5px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*FIN CLASES Y SERVICIOS*/
+
+/*FOOTER*/
+
+.footersection {
+  width: 100%;
+  height: auto;
+  padding: 70px 0 20px 0;
+  background: linear-gradient(to right, #134E5E, #71B280);
+  position: relative;
+}
+
+.footersection p {
+  color: #fff;
+}
+
+.footer-navlinks {
+  text-align: center;
+}
+
+.footersection li a {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.footersection h3 {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+  margin: 5px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+#myBtn {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 10;
+  border: none;
+  color: #fff;
+  background: linear-gradient(to right, #134E5E, #71B280);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*FÍN FOOTER*/
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  .nav-item {
+    text-align: center !important;
+  }
+
+  .pricing,
+  .happyclients,
+  .contactus {
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .card-second {
+    transform: translateY(0px);
+    margin: 30px 0;
+  }
+
+  .contactus p {
+    padding: 0 50px;
+  }
+
+  .footer-navlinks {
+    text-align: left;
+  }
+
+  .footer-div {
+    margin: 30px 0;
+  }
+}
